@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #44DAD5;
+    font-family: BungeeTint-Regular, sans-serif;
+    background-image: url(https://partygames4kids.com/app/uploads/2021/08/beach-volleyball.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: BungeeTint-Regular;
+    src: url(/BungeeTint-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: CursedTimerUlil-Aznm;
+    src: url(/CursedTimerUlil-Aznm.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    font-family: CursedTimerUlil-Aznm, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFA10A;
+    border: 3px solid whitesmoke;
+    border-radius: 7px;
+    color: whitesmoke;
+    width: 400px;
+    height: 225px;
+    margin-top: 75px ;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+#clear-el {
+    display: flex;
+    justify-content: center;
+    background-color: #FFA10A;
+    border: 3px solid whitesmoke;
+    border-radius: 7px;
+    color: whitesmoke;
+    width: 200px;
+    height: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2px;
+    
+}
+
+#clear-btn {
+    width: 200px;
+    background-color:#FFA10A;
+    font-family: BungeeTint-Regular, sans-serif;
+    border: 0;
+}
+
+#homeOnePoint {
+    padding: 5px;
+    border: 2px solid #899194;
+    border-radius: 5px;
+    font-size: small;
+}
+#homeTwoPoints {
+    padding: 5px;
+    border: 2px solid #899194;
+    border-radius: 5px;
+    font-size: small;
+}
+#homeThreePoints {
+    padding: 5px;
+    border: 2px solid #899194;
+    border-radius: 5px;
+    font-size: small;
+}
+#guestOnePoint {
+    padding: 5px;
+    border: 2px solid #899194;
+    border-radius: 5px;
+    font-size: small;
+}
+#guestTwoPoints {
+    padding: 5px;
+    border: 2px solid #899194;
+    border-radius: 5px;
+    font-size: small;
+}
+#guestThreePoints {
+    padding: 5px;
+    border: 2px solid #899194;
+    border-radius: 5px;
+    font-size: small;
+}
+
+#home-el {
+    margin-top: -25px;
+    margin-bottom: 5px;
+    padding: 40px 50px;
+    width: 25px;
+    height: 25px;
+    background-color: #899194;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+
+#guest-el {
+    margin-top: -25px;
+    margin-bottom: 5px;
+    padding: 40px 50px;
+    width: 25px;
+    height: 25px;
+    background-color: #899194;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+.heading {
+    margin-top: 20px;
+    font-family: BungeeTint-Regular, sans-serif;
+}
+.font {
+    font-family: CursedTimerUlil-Aznm, sans-serif;
+}

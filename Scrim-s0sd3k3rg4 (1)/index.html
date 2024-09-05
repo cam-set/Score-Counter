@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Score Counter</h1>
+        <div class="container">
+            <div>
+                <h3 class="heading">HOME</h3>
+                <p id="home-el"></p>
+                <button class="font" id="homeOnePoint" onclick="homeOnePoint()">+1</button>
+                <button class="font" id="homeTwoPoints" onclick="homeTwoPoints()">+2</button>
+                <button class="font" id="homeThreePoints" onclick="homeThreePoints()">+3</button>
+            </div>
+            <div>
+                <h3 class="heading">GUEST</h3>
+                <p id="guest-el"></p>            
+                <button class="font" id="guestOnePoint" onclick="guestOnePoint()">+1</button>
+                <button class="font" id="guestTwoPoints" onclick="guestTwoPoints()">+2</button>
+                <button class="font" id="guestThreePoints" onclick="guestThreePoints()">+3</button>
+            </div>
+        </div>
+        <div id="clear-el">
+            <button id="clear-btn" onclick="clearEl()">CLEAR</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
